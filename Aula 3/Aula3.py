@@ -1,10 +1,33 @@
-#O comando if é utilizado quando precisamos decidir se um trecho do programa deve ou não ser executado, com base no resultado de uma condição.
+#1
 
-#Exemplo
+# velocidade = int(input("Velocidade do carro: "))
 
-media_final = int(input("Digite a sua média: "))
+if velocidade > 80:
+    multa = (velocidade - 80) * 5
+    print(f"Você foi multado por excesso de velocidade, valor total a pagar R$ {multa:.2f}")
 
-if media_final >= 60:
-    print("Aprovado")
+#2
+
+#3.
+
+v_salario = float(input("Valor do salário: "))
+
+if(v_salario > 1250.00):
+   porcentual = 10
 else:
-    print("Reprovado")
+    porcentual = 15
+
+
+v_porcentual = porcentual/100
+aumento = v_porcentual * v_salario
+total = v_salario + aumento
+
+print(f"A porcentagem de aumento é de {porcentual}% e o valor do novo salario é de R$ {total:.2f}")
+
+
+
+
+
+
+
+
