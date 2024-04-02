@@ -45,5 +45,16 @@
 # print(f"A porcentagem de aumento é de {porcentual}% e o valor do novo salário é de R$ {total:.2f}")
 
 #4.
+#
+# distancia = int(input("Calcule a distancia a percorrer em km/h: "))
+#
+# if distancia <= 200:
+#     preco = 0.50 * distancia
+# else:
+#     preco = 0.45 * distancia
+#
+# print(f"O preço da passagem é de R$ {preco:.2f} ")
+
+#5.
 
 
