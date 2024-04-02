@@ -78,10 +78,10 @@ print(f"O total a pagar é de R$ {total:.2f}")
 
 # 12. Escreva um programa que receba 2 valores do tipo inteiro x e y, e calcule o valor de z:z = (x2 + y2) / (x – y)2
 
-x = int(input())
-y = int(input())
+x = float(input())
+y = float(input())
 
-z = (x**2 + y**2) / (x – y)**2
+z = (x**2 + y**2) / (x–y)**2
 
 print(f"{z}")
 
