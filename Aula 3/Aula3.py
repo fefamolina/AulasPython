@@ -57,4 +57,18 @@
 
 #5.
 
+n1 = float(input())
+n2 = float(input())
+
+if calculo == 1:
+    total = n1 + n2
+elif calculo == 2:
+    total = n1 - n2
+elif categoria == 3:
+    total = n1 * n2
+elif categoria == 4:
+    total = n1 / n2
+else:
+    print("Categoria inválida, digite um valor entre 1 e 4!")
+    total = 0
 

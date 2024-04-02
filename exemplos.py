@@ -36,6 +36,7 @@ pacote_adicional = int(input("Quantidade de pacote de franquia adicional de 300M
 
 valor_mensal = 29.99 + pacote_adicional * 7.99
 
-print(f"O Valor mensal do plano é de R$ {valor_mensal:.2f}")
+print(f"O Valor mensal do plano é de R$ {valor_mensal:.2f}.\n")
 
+print("Aperte o botoão ENTER para sair do programa")
 teste = input()
