@@ -34,16 +34,14 @@
 
 print("O seu pacote é o Tchau Pré-Pago Prezão 15GB "
       "Por R$29,99/mês\n")
+
 plano = input("Você utilizou todo o seu pacote (sim/não): ")
 
 if plano == "sim":
     pacote_adiconal = input("Você deseja compra um novo pacote? (sim/não): ")
-if pacote_adiconal == "sim":
-    qtd_pacote_adicional = int(input("Digite a quantidade de pacote de franquia adicional de 300MB: "))
-    valor_mensal = 29.99 + qtd_pacote_adicional * 7.99
-else:
-    print(f"O Valor mensal do plano é de R$29,99\n")
-
-print(f"O Valor mensal do plano é de R$ {valor_mensal:.2f}.\n")
+    if pacote_adiconal == "sim":
+        qtd_pacote_adicional = int(input("Digite a quantidade de pacote de franquia adicional de 300MB: "))
+        valor_mensal = 29.99 + qtd_pacote_adicional * 7.9
+        print(f"O Valor mensal do plano é de R$ {valor_mensal:.2f}.\n")
 
 fechar = input("Aperte o botão ENTER para sair do programa.")
