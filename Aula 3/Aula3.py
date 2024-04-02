@@ -30,7 +30,7 @@
 # print(f"O número maior é {maior} e o menor é {menor}")
 
 # 3.
-  
+
 # v_salario = float(input("Valor do salário: "))
 #
 # if v_salario > 1250.00:
@@ -44,7 +44,7 @@
 #
 # print(f"A porcentagem de aumento é de {porcentual}% e o valor do novo salário é de R$ {total:.2f}")
 
-#4.
+# 4.
 #
 # distancia = int(input("Calcule a distancia a percorrer em km/h: "))
 #
@@ -55,20 +55,29 @@
 #
 # print(f"O preço da passagem é de R$ {preco:.2f} ")
 
-#5.
+# 5.
+#
+# n1 = float(input("Digite um número: "))
+# n2 = float(input("Digite outro número: "))
+# print("Qual operação você deseja realizar:\n"
+#                      "1- Soma\n"
+#                      "2- Subtração\n"
+#                      "3- Multiplicação\n"
+#                      "4- Divisão")
+# calcular = float(input())
+#
+# if calcular == 1:
+#     total = n1 + n2
+# elif calcular == 2:
+#     total = n1 - n2
+# elif calcular == 3:
+#     total = n1 * n2
+# elif calcular == 4:
+#     total = n1 / n2
+# else:
+#     print("Operação inválida, digite um valor entre 1 e 4 para realizar uma operação!")
+#     total = 0
+#
+# print(f"O total é de {total:.0f}")
 
-n1 = float(input())
-n2 = float(input())
-
-if calculo == 1:
-    total = n1 + n2
-elif calculo == 2:
-    total = n1 - n2
-elif categoria == 3:
-    total = n1 * n2
-elif categoria == 4:
-    total = n1 / n2
-else:
-    print("Categoria inválida, digite um valor entre 1 e 4!")
-    total = 0
 
