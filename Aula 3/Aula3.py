@@ -8,26 +8,26 @@
 #     print("Velocidade permitida.")
 # 2
 
-n1 = int(input())
-n2 = int(input())
-n3 = int(input())
+# n1 = int(input())
+# n2 = int(input())
+# n3 = int(input())
+#
+# maior = n1
+# menor = n1
+#
+# if n2 > n1 and n2 > n3:
+#     maior = n2
+#
+# if n3 > n1 and n3 > n1:
+#     maior = n3
+#
+# if n2 < n1 and n2 < n1:
+#     menor = n2
+#
+# if n3 < n1 and n3 < n1:
+#     menor = n3
 
-maior = n1
-menor = n1
-
-if n2 > n1 and n2 > n3:
-    maior = n2
-
-if n3 > n1 and n3 > n1:
-    maior = n3
-
-if n2 < n1 and n2 < n1:
-    menor = n2
-
-if n3 < n1 and n3 < n1:
-    menor = n3
-
-print(f"O número maior é {maior} e o menor é {menor}")
+# print(f"O número maior é {maior} e o menor é {menor}")
 
 # 3.
   
@@ -43,3 +43,4 @@ print(f"O número maior é {maior} e o menor é {menor}")
 # total = v_salario + aumento
 #
 # print(f"A porcentagem de aumento é de {porcentual}% e o valor do novo salário é de R$ {total:.2f}")
+
