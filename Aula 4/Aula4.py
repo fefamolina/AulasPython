@@ -26,3 +26,4 @@ while n <= 10:
     n = n + 1
 
 print(f"Soma = {soma:.2f}")
+print(f"A média é = {soma/10:.2f}")
